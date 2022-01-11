@@ -33,15 +33,15 @@
 						<li>MySQL</li>
 					</ul>
 				</v-card-text>
-				<v-img height="100%" src="../assets/programmer.png">
+				<v-img width="100%" src="../assets/programmer.png">
 					<v-row align="end" class="fill-height" style="margin: 0;">
 						<v-col class="pa-1">
 							<v-list-item color="rgba(0, 0, 0, .4)" dark class="pa-1">
 								<v-list-item-content>
-									<v-list-item-title class="title">
+									<!--v-list-item-title class="title">
 										<a href="mailto:sun7190@naver.com">
 											<v-icon>mdi-email</v-icon>
-										</a>
+										</~a>
 										<a href="https://dev-jsk.tistory.com" target="_blank">
 											<v-icon>mdi-blogger</v-icon>
 										</a>
@@ -53,8 +53,8 @@
 										</a>
 										<br />
 										Jinseo Kim
-									</v-list-item-title>
-									<v-list-item-subtitle>Programmer</v-list-item-subtitle>
+									</v-list-item-title-->
+									<v-list-item-subtitle>Cloocus.com</v-list-item-subtitle>
 								</v-list-item-content>
 							</v-list-item>
 						</v-col>

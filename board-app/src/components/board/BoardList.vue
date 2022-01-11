@@ -2,7 +2,7 @@
 	<v-container>
 		<v-card elevation="10" outlined width="100%" class="mx-auto">
 			<v-card-title>
-				Board
+				게시판
 			</v-card-title>
 			<v-card-text>
 				<v-row>
@@ -29,7 +29,7 @@
 							small
 							block
 							iconName="mdi-magnify"
-							btnName="Search"
+							btnName="검색"
 						></Button>
 					</v-col>
 				</v-row>

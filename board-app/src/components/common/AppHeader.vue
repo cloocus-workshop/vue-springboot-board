@@ -1,9 +1,9 @@
 <template>
-	<v-app-bar app color="blue-grey darken-1" dark>
-		<v-btn @click="movePage('/home')" text>
+	<v-app-bar app color="purple">
+		<v-btn @click="movePage('/home')" text color="white">
 			<span class="mr-2">Home</span>
 		</v-btn>
-		<v-btn @click="movePage('/list')" text>
+		<v-btn @click="movePage('/list')" text color="white">
 			<span class="mr-2">Board</span>
 		</v-btn>
 		<v-spacer></v-spacer>
