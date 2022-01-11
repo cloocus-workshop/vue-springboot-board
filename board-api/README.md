@@ -174,3 +174,9 @@ flush privileges;
 ```
 show grants for 'user id'@'%';
 ```
+
+## Dockerfile을 스프링 부트의 기본 디렉토리에 저장한 후 Maven 
+docker build -t springio/gs-spring-boot-docker
+
+## Gradle
+$ docker build --build-args JAR_FILE=build/libs/*.jar -t springio/gs-spring-boot-docker .
