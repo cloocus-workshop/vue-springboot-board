@@ -262,5 +262,17 @@ public class BoardController {
 
     return rows;
   }
+
+  /**
+   * Alive Check
+   * @param response
+   * @return
+   * @throws Exception
+   */
+  @ResponseBody
+  @GetMapping(value = "/alive")
+  public String alieveCheck()  throws Exception{
+    return "Alive";
+  }
   
 }

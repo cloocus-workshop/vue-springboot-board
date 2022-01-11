@@ -1,8 +1,12 @@
 import axios from 'axios'
 
 const instance = axios.create({
-	baseURL: 'https://192.168.0.34:8090/',
+	baseURL: 'http://127.0.0.1:8090/',
 })
+
+instance.defaults.headers.post['Content-Type'] =
+	'application/json;charset=utf-8'
+instance.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
 
 /**
  * 게시글 목록 조회

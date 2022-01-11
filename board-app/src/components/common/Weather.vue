@@ -2,23 +2,23 @@
 	<div id="weather">
 		<div v-if="typeof weather.main != 'undefined'">
 			<div :title="weather.weather[0].main">
-				<v-icon v-if="code == 800">{{ icons[5] }}</v-icon>
-				<v-icon v-else-if="code.substr(0, 1) == 2">
+				<v-icon v-if="code == 800" color="white">{{ icons[5] }}</v-icon>
+				<v-icon v-else-if="code.substr(0, 1) == 2" color="white">
 					{{ icons[0] }}
 				</v-icon>
-				<v-icon v-else-if="code.substr(0, 1) == 3">
+				<v-icon v-else-if="code.substr(0, 1) == 3" color="white">
 					{{ icons[1] }}
 				</v-icon>
-				<v-icon v-else-if="code.substr(0, 1) == 5">
+				<v-icon v-else-if="code.substr(0, 1) == 5" color="white">
 					{{ icons[2] }}
 				</v-icon>
-				<v-icon v-else-if="code.substr(0, 1) == 6">
+				<v-icon v-else-if="code.substr(0, 1) == 6" color="white">
 					{{ icons[3] }}
 				</v-icon>
-				<v-icon v-else-if="code.substr(0, 1) == 7">
+				<v-icon v-else-if="code.substr(0, 1) == 7" color="white">
 					{{ icons[4] }}
 				</v-icon>
-				<v-icon v-else>
+				<v-icon v-else color="white">
 					{{ icons[6] }}
 				</v-icon>
 			</div>
@@ -73,5 +73,6 @@ export default {
 #weather {
 	font-size: 0.875rem;
 	font-weight: 500;
+	color: white;
 }
 </style>

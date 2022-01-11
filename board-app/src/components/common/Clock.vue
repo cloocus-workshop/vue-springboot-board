@@ -1,8 +1,8 @@
 <template>
 	<div id="clock">
-		<v-icon small>mdi-calendar</v-icon> {{ date }}
+		<v-icon small color="white">mdi-calendar</v-icon> {{ date }}
 		<br />
-		<v-icon small>mdi-clock-outline</v-icon> {{ time }}
+		<v-icon small color="white">mdi-clock-outline</v-icon> {{ time }}
 	</div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
 	data() {
 		return {
-			week: ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'],
+			week: ['일', '월', '화', '수', '목', '금', '토'],
 			time: '',
 			date: '',
 		}
@@ -51,5 +51,6 @@ export default {
 #clock {
 	font-size: 0.875rem;
 	font-weight: 500;
+	color: white;
 }
 </style>
